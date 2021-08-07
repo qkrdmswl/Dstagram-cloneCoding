@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col"></div>
+    <div class="col-6">
+        <div class="alert alert-primary" role="alert">
+            you are successfully signed.up
+        </div>
+        <a href="{% url 'accounts:login' %}">로그인 페이지로 이동</a>
+    </div>
+    <div class="col"></div>
+</div>
+
+{% endblock %}
